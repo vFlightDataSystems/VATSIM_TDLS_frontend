@@ -12,4 +12,15 @@ Preview available [here](http://tdls.oakartcc.org)
 
 ## FDIO command reference
 
-### TODO
+`REJECT, INVALID COMMAND`: the command entered is invalid
+
+### flightplan readout
+
+syntax: `FR <callsign>`  
+responses:
+- `ACCEPT`: the flightplan is printed on the bottom row
+- `REJECT, FLIGHTPLAN NOT STORED`: no flightplan was found for the given callsign
+
+# TODO list
+
+- add more functionality to FDIO
