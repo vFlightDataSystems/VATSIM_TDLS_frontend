@@ -1,0 +1,30 @@
+
+.fdio-strip {
+    line-height: 40px;
+    position: center;
+}
+
+.fdio-strip-row {
+    min-height: 40px;
+    position: relative;
+}
+
+.fdio-strip-row div {
+    display: inline-block
+}
+
+.fdio-strip-col-1 {
+    width: 200px;
+}
+
+.fdio-strip-col-2 {
+    width: 100px;
+}
+
+.fdio-strip-col-3 {
+    width: 100px;
+}
+
+.fdio-strip-col-4 {
+
+}

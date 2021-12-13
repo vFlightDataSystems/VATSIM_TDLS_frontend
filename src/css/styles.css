@@ -1,0 +1,61 @@
+/* @import url(https://fonts.googleapis.com/css?family=Roboto&display=swap); */
+/* @import url(https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap); */
+
+@font-face {
+    font-family: 'Retron2000';
+    src: url('./fonts/Retron2000.ttf');
+}
+
+@font-face {
+    font-family: 'VRC';
+    src: url('./fonts/VRC_Standard.ttf')
+}
+
+:root {
+    --tdls-light-green: #11EE11;
+    --tdls-border-green: #80EE80;
+    --tdls-pink: #C311C3;
+    --tdls-dark-blue: #1111EE;
+
+    --tdls-arrow-grey: #9C9C9C;
+
+    --dcl-header-bg-green: #11BE11;
+    --dcl-header-border-light-green: #11EE11;
+    --dcl-header-border-dark-green: #116611;
+    --dcl-outline-grey: #CACDD2;
+    --dcl-border-grey: #878787;
+
+    --cpdlc-header-bg-green: #80EE80;
+    --cpdlc-header-border-light-green: #AFEEAF;
+    --cpdlc-header-border-dark-green: #4E8B4E;
+
+    --cpdlc-body-border-grey: #90949D;
+
+    --fdio-header-bg-green: #2E892E;
+    --fdio-header-border-dark-green: #1E471E;
+
+    --datis-header-bg-green: #2E892E;
+    --datis-header-border-dark-green: #1E471E;
+}
+
+.checkboxes label {
+    font-family: Helvetica, sans-serif;
+    font-size: 11pt;
+    display: inline;
+    float: left;
+    padding-right: 10px;
+    white-space: nowrap;
+    cursor: default;
+}
+
+.checkboxes input {
+    font-size: 11pt;
+    vertical-align: top;
+    cursor: pointer
+}
+
+.checkboxes label span {
+    font-size: 11pt;
+    vertical-align: middle;
+    cursor: pointer
+}

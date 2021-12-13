@@ -1,0 +1,238 @@
+/*noinspection SpellCheckingInspection*/
+.dcl {
+    height: calc(100vh - 54px);
+    /*font-family: Retron2000, monospace;*/
+    /*font-family: "Consolas", monospace;*/
+    font-family: "VRC", monospace;
+    background-color: #ffffff
+}
+
+.dcl-header {
+    font-family: "VRC", monospace;
+    height: 20px;
+    background-color: var(--dcl-header-bg-green);
+    border-top: 2px solid var(--dcl-header-border-light-green);
+    border-bottom: 2px solid var(--dcl-header-border-dark-green);
+    text-align: center;
+    position: relative;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.dcl-callsign-list {
+    font-size: 10pt;
+    margin: 2px 2px;
+    border: 2px solid var(--dcl-border-grey);
+    outline: 2px solid var(--dcl-outline-grey);
+    display: flex;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    overflow-x: auto;
+    height: 135px
+}
+
+.dcl-callsign-list::-webkit-scrollbar {
+    display: none
+}
+
+/*noinspection SpellCheckingInspection*/
+.cpdlc-header {
+    font-family: Retron2000, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    /*background-color: #80ff80;*/
+    background-color: var(--cpdlc-header-bg-green);
+    border-top: 2px solid var(--cpdlc-header-border-light-green);
+    border-bottom: 2px solid var(--cpdlc-header-border-dark-green);
+    position: relative
+}
+
+select {
+    border-radius: 0;
+    height: 16pt;
+    display: inline-flex;
+    vertical-align: top;
+    border: 1px solid #767676;
+}
+
+select:disabled {
+    background-color: #ffffff;
+}
+
+.dcl-edit {
+    position: fixed;
+    height: 300px;
+    width: calc(100vw - 75px);
+    bottom: 20px;
+    left: 50%;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #000000 #000000 #ffffff;
+    -webkit-transform: translate(-50%);
+    transform: translate(-50%);
+    padding: 20px 5px;
+    z-index: 10
+}
+
+.dcl-edit-col-1 {
+    width: 15%
+}
+
+.dcl-edit-col-2 {
+    margin: 0 10px
+}
+
+.dcl-edit-col-3 {
+    float: right;
+    width: 15%
+}
+
+.dcl-edit-col-4 {
+    float: right;
+    width: 40%
+}
+
+.dcl-edit-col-5 {
+    width: calc(85% - 10px);
+    margin-left: 10px
+}
+
+.dcl-edit-row {
+    min-height: 18px;
+    position: relative;
+    margin-bottom: 5px
+}
+
+.dcl-edit-row div {
+    display: inline-block
+}
+
+.dcl-caf {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    display: flex !important;
+    /* align-items: center */
+}
+
+.dcl-caf input {
+    margin-left: 5px;
+    /*vertical-align: top*/
+}
+
+.dcl-select {
+    height: auto;
+}
+
+/*noinspection SpellCheckingInspection*/
+.select-expt-crz {
+    width: 200px
+}
+
+.select-dep {
+    margin-right: 5px;
+    flex-grow: 1
+}
+
+.select-transition {
+    margin-left: 5px;
+    flex-grow: 1
+}
+
+/*noinspection SpellCheckingInspection*/
+.select-climbout {
+    flex-grow: 3;
+    margin-right: 5px
+}
+
+/*noinspection SpellCheckingInspection*/
+.select-climbvia {
+    flex-grow: 3;
+    margin-right: 5px;
+    margin-left: 5px
+}
+
+/*noinspection SpellCheckingInspection*/
+.select-initialalt {
+    flex-grow: 1;
+    margin-left: 5px
+}
+
+.select-info {
+    width: 25%
+}
+
+.select-dep-freq {
+    margin-left: 10px;
+    width: 150px
+}
+
+.dcl-edit-footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 5px;
+    width: calc(100% - 15px)
+}
+
+.dcl-edit-footer button {
+    border-radius: 0;
+    border: 1px solid #767676;
+    bottom: 0;
+    /*width: 70px;*/
+    display: inline-flex;
+    margin-left: 10px;
+    float: right;
+}
+
+.dcl-callsign-container {
+    display: inline-flex;
+    align-items: center;
+    /*font-weight: 500;*/
+    width: -moz-fit-content;
+    width: fit-content
+}
+
+.dcl-callsign-container .tdls-dcl-flight:hover .dcl-callsign {
+    color: #ffffff;
+    background-color: #000000;
+    cursor: pointer
+}
+
+.dcl-callsign {
+    width: 150px
+}
+
+.dcl-callsign-status {
+    text-align: right;
+    width: 25px
+}
+
+.dcl-callsign-status-active {
+    text-align: left;
+    width: 25px
+}
+
+/*noinspection SpellCheckingInspection*/
+.cpdlc-callsign-list {
+    margin: 2px 0;
+    border: 2px solid var(--cpdlc-body-border-grey);
+    height: calc(100vh - 243px)
+}
+
+.tdls-arrow-left {
+    border-right: 18px solid var(--tdls-arrow-grey);
+}
+
+.tdls-arrow-left, .tdls-arrow-right {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent
+}
+
+.tdls-arrow-right {
+    right: 0;
+    top: 0;
+    border-left: 18px solid var(--tdls-arrow-grey)
+}

@@ -1,0 +1,199 @@
+.tdls {
+    font-family: "VRC", monospace !important;
+    margin: 0;
+    background: #ffffff;
+    color: #000
+}
+
+.tdls-header {
+    font-weight: bolder;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tdls-header-left {
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: #d3d3d3;
+    border: 3px solid #adadad;
+    box-shadow: inset 1px 1px 3px #000;
+    padding: 0 8px;
+    display: flex;
+    align-items: center
+}
+
+.tdls-header-left > button {
+    font-size: 14pt;
+    height: 22pt;
+    background-color: var(--tdls-light-green);
+    color: #000000;
+    margin: 3px 8px;
+    display: inline-flex;
+    white-space: nowrap;
+}
+
+.tdls-header-left > button.active {
+    border: 3px solid #000000
+}
+
+.tdls-header-left > select {
+    font-size: 14pt;
+    height: auto;
+    width: 70pt;
+    background-color: var(--tdls-light-green);
+    color: #000000;
+    margin: 3px 8px;
+    display: inline-flex;
+    white-space: nowrap;
+}
+
+.tdls-header-right {
+    background-color: #ffffff;
+    border: 3px solid var(--tdls-border-green);
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0 8px
+}
+
+.tdls-header-right > button {
+    font-family: 'Retron2000', sans-serif;
+    font-size: 14pt;
+    background-color: #ffffff;
+    border: 3px solid;
+    display: inline-flex;
+    white-space: nowrap;
+    margin: 3px 12px
+}
+
+.tdls-header-right > input {
+    font-size: 16px;
+    border-radius: 0;
+    background-color: #ffffff;
+    border: 3px solid #000000;
+    display: inline-flex;
+    white-space: nowrap;
+    margin: 4px 8px
+}
+
+.tdls-header-right > button.tdls-header-fdio-button {
+    border-color: var(--tdls-dark-blue);
+    cursor: pointer
+}
+
+.tdls-header-right > button.tdls-header-fdio-button .tdls-header-button-label {
+    margin-left: 8px;
+    margin-right: 4px;
+    color: var(--tdls-dark-blue)
+}
+
+.tdls-header-right > button.tdls-header-fdio-button .tdls-header-button-indicator {
+    width: 12pt;
+    color: var(--tdls-dark-blue);
+    /*background-color: #0000ff*/
+}
+
+.tdls-header-right > button.tdls-header-fdio-button .tdls-header-button-indicator.active {
+    background: var(--tdls-dark-blue)
+}
+
+.tdls-header-right > button.tdls-header-dcl-button {
+    border-color: #000000
+}
+
+.tdls-header-right > button.tdls-header-dcl-button .tdls-header-button-label {
+    margin-left: 8px;
+    margin-right: 4px;
+    border-color: #000000;
+    color: #000000;
+    /*background: #000000*/
+}
+
+.tdls-header-right > button.tdls-header-dcl-button .tdls-header-button-indicator {
+    width: 12pt;
+    color: #000000;
+    /*background: #000000*/
+}
+
+.tdls-header-right > button.tdls-header-dcl-button .tdls-header-button-indicator.active {
+    background: #000000
+}
+
+.tdls-header-right > button.tdls-header-datis-button {
+    border-color: var(--tdls-pink);
+}
+
+.tdls-header-right > button.tdls-header-datis-button .tdls-header-button-label {
+    margin-left: 8px;
+    margin-right: 4px;
+    color: var(--tdls-pink)
+}
+
+.tdls-header-right > button.tdls-header-datis-button .tdls-header-button-indicator {
+    width: 12pt;
+    color: var(--tdls-pink);
+    /*background-color: #cc00cc*/
+}
+
+.tdls-header-right > button.tdls-header-datis-button .tdls-header-button-indicator.active {
+    background-color: var(--tdls-pink);
+}
+
+.tdls-header-button-label {
+    border: 3px solid;
+    width: 80px;
+    height: 25px
+}
+
+.tdls-header-button-indicator {
+    width: 20px;
+    height: 25px;
+    margin-left: 10px;
+    border: 3px solid
+}
+
+.tdls-arrow-left {
+    border-right: 18px solid var(--tdls-arrow-grey);
+}
+
+.tdls-arrow-left, .tdls-arrow-right {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent
+}
+
+.tdls-arrow-right {
+    right: 0;
+    top: 0;
+    border-left: 18px solid var(--tdls-arrow-grey)
+}
+
+.tdls-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 22px;
+    background-color: #ffffff
+}
+
+.tdls-footer .error {
+    position: absolute;
+    left: 150px
+}
+
+.tdls-footer .options {
+    position: absolute;
+    right: 150px
+}
+
+.tdls-footer .time {
+    font-family: Helvetica, sans-serif;
+    font-size: 11pt;
+    position: absolute;
+    right: 50px;
+    /*bottom: 5px*/
+}
