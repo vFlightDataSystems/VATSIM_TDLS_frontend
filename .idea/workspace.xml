@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c7317d59-655c-4988-9188-58acd0f0c466" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/GitLink.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/tdls_frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon-16x16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tdls.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Clock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Dcl.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/arrows/Arrows.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dclComponents/AircraftLists.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dclComponents/AircraftRows.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/dclComponents/DclEdit.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/CourierPrime.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/RobotoMono.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fonts/VRC_Standard.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hub.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/hooks.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/slices/dclSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/colors.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/aircraftId.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/apiFlightplan.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/flightplan.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/helpers.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="hys0zw6c" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="20EK8xYaGR2pzFy4lA0wtIiIuMI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="HTML" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="E:\FLIGHTSIM_DEV\VATSIM_DEV\tdls_frontend\node_modules\prettier" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
+    <property name="ts.external.directory.path" value="E:\FLIGHTSIM_DEV\VATSIM_DEV\tdls_frontend\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\FLIGHTSIM_DEV\VATSIM_DEV\tdls_frontend" />
+      <recent name="E:\FLIGHTSIM_DEV\VATSIM_DEV\tdls_frontend\src\types" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\FLIGHTSIM_DEV\VATSIM_DEV\tdls_frontend\FAA Digital ATIS_files" />
+      <recent name="E:\FLIGHTSIM_DEV\VATSIM_DEV\tdls_frontend" />
+      <recent name="E:\FLIGHTSIM_DEV\VATSIM_DEV\tdls_frontend\POSCON KBOS TDLS_files" />
+      <recent name="E:\FLIGHTSIM_DEV\VATSIM_DEV\tdls_frontend\src\css" />
+      <recent name="E:\FLIGHTSIM_DEV\VATSIM_DEV\tdls_frontend\public" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Tux\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c7317d59-655c-4988-9188-58acd0f0c466" name="Changes" comment="" />
+      <created>1635604153280</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1635604153280</updated>
+      <workItem from="1635604156444" duration="14113000" />
+      <workItem from="1635698762937" duration="1779000" />
+      <workItem from="1636228135093" duration="4161000" />
+      <workItem from="1636285053880" duration="1727000" />
+      <workItem from="1636379599759" duration="3000" />
+      <workItem from="1636806319881" duration="3379000" />
+      <workItem from="1636815528114" duration="5035000" />
+      <workItem from="1636821096377" duration="18572000" />
+      <workItem from="1636943176961" duration="20000" />
+      <workItem from="1637184440634" duration="4582000" />
+      <workItem from="1637323516316" duration="4116000" />
+      <workItem from="1637452124909" duration="11071000" />
+      <workItem from="1637503172856" duration="11119000" />
+      <workItem from="1637515273187" duration="8577000" />
+      <workItem from="1637525341513" duration="12046000" />
+      <workItem from="1637580128668" duration="17967000" />
+      <workItem from="1637685028404" duration="14066000" />
+      <workItem from="1637767907151" duration="12297000" />
+      <workItem from="1637855799148" duration="9156000" />
+      <workItem from="1637940902644" duration="1905000" />
+      <workItem from="1637964611634" duration="2240000" />
+      <workItem from="1637969853914" duration="3214000" />
+      <workItem from="1638024057879" duration="12000" />
+      <workItem from="1638024510094" duration="7323000" />
+      <workItem from="1638066527408" duration="178000" />
+      <workItem from="1638111551984" duration="59000" />
+      <workItem from="1638128339233" duration="2655000" />
+      <workItem from="1638201757274" duration="8474000" />
+      <workItem from="1638292058393" duration="1429000" />
+      <workItem from="1638379037809" duration="6511000" />
+      <workItem from="1638391262924" duration="944000" />
+      <workItem from="1638468177207" duration="9462000" />
+      <workItem from="1638546760081" duration="14861000" />
+      <workItem from="1638574248934" duration="107000" />
+      <workItem from="1638575887109" duration="735000" />
+      <workItem from="1638638483139" duration="1073000" />
+      <workItem from="1638650713512" duration="2875000" />
+      <workItem from="1638661125582" duration="5000" />
+      <workItem from="1638664042331" duration="600000" />
+      <workItem from="1638727792328" duration="2692000" />
+      <workItem from="1638785951226" duration="3339000" />
+      <workItem from="1638801639224" duration="1537000" />
+      <workItem from="1638806323085" duration="20961000" />
+      <workItem from="1638877233768" duration="4825000" />
+      <workItem from="1638891255714" duration="11285000" />
+      <workItem from="1638926074741" duration="5320000" />
+      <workItem from="1638981588020" duration="6862000" />
+      <workItem from="1639067046656" duration="6220000" />
+      <workItem from="1639125839258" duration="64000" />
+      <workItem from="1639148411421" duration="5652000" />
+      <workItem from="1639218408067" duration="2195000" />
+      <workItem from="1639236826617" duration="11348000" />
+      <workItem from="1639344004766" duration="5129000" />
+      <workItem from="1639409279328" duration="1312000" />
+      <workItem from="1639410609953" duration="4463000" />
+      <workItem from="1639415121230" duration="1631000" />
+      <workItem from="1639422270413" duration="679000" />
+      <workItem from="1639423742227" duration="3578000" />
+      <workItem from="1639587185911" duration="2241000" />
+      <workItem from="1639681217808" duration="601000" />
+      <workItem from="1639684828617" duration="1875000" />
+      <workItem from="1639760115265" duration="2638000" />
+      <workItem from="1639844235227" duration="1876000" />
+      <workItem from="1639886635753" duration="6000" />
+      <workItem from="1640027002926" duration="50000" />
+      <workItem from="1640027185661" duration="653000" />
+      <workItem from="1640035812624" duration="909000" />
+      <workItem from="1643841941658" duration="716000" />
+      <workItem from="1646849561378" duration="793000" />
+      <workItem from="1646850385336" duration="173000" />
+      <workItem from="1646858402400" duration="3100000" />
+      <workItem from="1646861542583" duration="676000" />
+      <workItem from="1647952477316" duration="4000" />
+      <workItem from="1653430147064" duration="6395000" />
+      <workItem from="1653571588032" duration="12051000" />
+      <workItem from="1653756088339" duration="2478000" />
+      <workItem from="1653785688608" duration="1499000" />
+      <workItem from="1655225228180" duration="11000" />
+      <workItem from="1658963835362" duration="2286000" />
+    </task>
+    <task id="LOCAL-00023" summary="update fonts">
+      <created>1637701786256</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1637701786256</updated>
+    </task>
+    <task id="LOCAL-00024" summary="update route amendment display">
+      <created>1637702354834</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1637702354834</updated>
+    </task>
+    <task id="LOCAL-00025" summary="dropdown for datis airports only">
+      <created>1637768820731</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1637768820731</updated>
+    </task>
+    <task id="LOCAL-00026" summary="rename function">
+      <created>1637768837866</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1637768837866</updated>
+    </task>
+    <task id="LOCAL-00027" summary="display airports with a D-ATIS only">
+      <created>1637787355517</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1637787355517</updated>
+    </task>
+    <task id="LOCAL-00028" summary="comment debugging stuff - active airport">
+      <created>1637787397754</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1637787397754</updated>
+    </task>
+    <task id="LOCAL-00029" summary="remove unused css">
+      <created>1637790592991</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1637790592991</updated>
+    </task>
+    <task id="LOCAL-00030" summary="do not display VFR flightplans">
+      <created>1637790794309</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1637790794309</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add VRC font">
+      <created>1637790859711</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1637790859711</updated>
+    </task>
+    <task id="LOCAL-00032" summary="start development on pdc templates">
+      <created>1637967423007</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1637967423007</updated>
+    </task>
+    <task id="LOCAL-00033" summary="implement pdc/adaptation profiles">
+      <created>1638066267356</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1638066267356</updated>
+    </task>
+    <task id="LOCAL-00034" summary="implement assignment of beacon codes">
+      <created>1638317658454</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1638317658454</updated>
+    </task>
+    <task id="LOCAL-00035" summary="formatting into CSS">
+      <created>1638390536615</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1638390536615</updated>
+    </task>
+    <task id="LOCAL-00036" summary="install react-tooltip">
+      <created>1638390553707</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1638390553707</updated>
+    </task>
+    <task id="LOCAL-00037" summary="tooltip for PDC">
+      <created>1638390603720</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1638390603720</updated>
+    </task>
+    <task id="LOCAL-00038" summary="formatting">
+      <created>1638390853107</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1638390853107</updated>
+    </task>
+    <task id="LOCAL-00039" summary="empty object initialization for selected_pdc_profile">
+      <created>1638474399157</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1638474399157</updated>
+    </task>
+    <task id="LOCAL-00040" summary="unused variable">
+      <created>1638474415848</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1638474415848</updated>
+    </task>
+    <task id="LOCAL-00041" summary="build pdc string">
+      <created>1638474437700</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1638474437700</updated>
+    </task>
+    <task id="LOCAL-00042" summary="semicolon ; (evil face)">
+      <created>1638479773792</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1638479773792</updated>
+    </task>
+    <task id="LOCAL-00043" summary="add datis viewer">
+      <created>1638573753124</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1638573753124</updated>
+    </task>
+    <task id="LOCAL-00044" summary="update api atis endpoint">
+      <created>1638647997708</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1638647997708</updated>
+    </task>
+    <task id="LOCAL-00045" summary="make weather updates async">
+      <created>1638648013060</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1638648013060</updated>
+    </task>
+    <task id="LOCAL-00046" summary="fix dict keys">
+      <created>1638648027038</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1638648027038</updated>
+    </task>
+    <task id="LOCAL-00047" summary="add option to remove flightplans&#10;remove useless stuff">
+      <created>1638653270094</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1638653270094</updated>
+    </task>
+    <task id="LOCAL-00048" summary="expect flightlevel...">
+      <created>1638801964481</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1638801964481</updated>
+    </task>
+    <task id="LOCAL-00049" summary="add .env">
+      <created>1638893118812</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1638893118812</updated>
+    </task>
+    <task id="LOCAL-00050" summary="move weather updates into datis component">
+      <created>1638893141983</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1638893141984</updated>
+    </task>
+    <task id="LOCAL-00051" summary="move weather updates into datis component">
+      <created>1638893201305</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1638893201305</updated>
+    </task>
+    <task id="LOCAL-00052" summary="rename css classes">
+      <created>1638893371727</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1638893371727</updated>
+    </task>
+    <task id="LOCAL-00053" summary="fix css that broke last commit...">
+      <created>1638910647272</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1638910647272</updated>
+    </task>
+    <task id="LOCAL-00054" summary="add fdio component">
+      <created>1638910743181</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1638910743181</updated>
+    </task>
+    <task id="LOCAL-00055" summary="update gitignore">
+      <created>1638926518446</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1638926518446</updated>
+    </task>
+    <task id="LOCAL-00056" summary="OBFUSCATOR (evil face)">
+      <created>1638931065774</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1638931065774</updated>
+    </task>
+    <task id="LOCAL-00057" summary="forgot some...">
+      <created>1638931238373</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1638931238373</updated>
+    </task>
+    <task id="LOCAL-00058" summary="messed it up :flushed:">
+      <created>1638931348354</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1638931348354</updated>
+    </task>
+    <task id="LOCAL-00059" summary="split stylesheets into multiple files&#10;fix colors">
+      <created>1638990171937</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1638990171937</updated>
+    </task>
+    <task id="LOCAL-00060" summary="add fdio strips, improve CSS, fix typos">
+      <created>1639125892321</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1639125892321</updated>
+    </task>
+    <task id="LOCAL-00061" summary="update css">
+      <created>1639241819549</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1639241819550</updated>
+    </task>
+    <task id="LOCAL-00062" summary="continue FDIO programming">
+      <created>1639241897880</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1639241897880</updated>
+    </task>
+    <task id="LOCAL-00063" summary="move runway configurator and clock to App.js">
+      <created>1639241925006</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1639241925006</updated>
+    </task>
+    <task id="LOCAL-00064" summary="fix whitespace">
+      <created>1639351379358</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1639351379358</updated>
+    </task>
+    <task id="LOCAL-00065" summary="remove debug print">
+      <created>1639351402447</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1639351402447</updated>
+    </task>
+    <task id="LOCAL-00066" summary="add regex for command syntax">
+      <created>1639351411653</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1639351411653</updated>
+    </task>
+    <task id="LOCAL-00067" summary="update node-notifier">
+      <created>1639412158507</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1639412158507</updated>
+    </task>
+    <task id="LOCAL-00068" summary="fix eslint inspection warnings">
+      <created>1639413361974</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1639413361974</updated>
+    </task>
+    <task id="LOCAL-00069" summary="update README.md">
+      <created>1639413371908</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1639413371908</updated>
+    </task>
+    <task id="LOCAL-00070" summary="update README.md">
+      <created>1639427287967</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1639427287968</updated>
+    </task>
+    <task id="LOCAL-00071" summary="fix altitude displayed incorrectly">
+      <created>1646849957451</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1646849957451</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/reportWebVitals.js" />
+        <option value="$PROJECT_DIR$/src/setupTests.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+      </list>
+    </option>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add option to remove flightplans&#10;remove useless stuff" />
+    <MESSAGE value="expect flightlevel...[" />
+    <MESSAGE value="expect flightlevel..." />
+    <MESSAGE value="add .env" />
+    <MESSAGE value="move weather updates into datis component" />
+    <MESSAGE value="rename css classes" />
+    <MESSAGE value="fix css that broke last commit..." />
+    <MESSAGE value="add fdio component" />
+    <MESSAGE value="update gitignore" />
+    <MESSAGE value="OBFUSCATOR (evil face)" />
+    <MESSAGE value="forgot some..." />
+    <MESSAGE value="messed it up :flushed:" />
+    <MESSAGE value="split stylesheets into multiple files&#10;fix colors" />
+    <MESSAGE value="add fdio strips, improve CSS, fix typos" />
+    <MESSAGE value="update css" />
+    <MESSAGE value="continue FDIO programming" />
+    <MESSAGE value="move runway configurator and clock to App.js" />
+    <MESSAGE value="fix whitespace" />
+    <MESSAGE value="remove debug print" />
+    <MESSAGE value="add regex for command syntax" />
+    <MESSAGE value="update node-notifier" />
+    <MESSAGE value="fix eslint inspection warnings" />
+    <MESSAGE value="update README.md" />
+    <MESSAGE value="fix altitude displayed incorrectly" />
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
